@@ -38,7 +38,7 @@ Este projeto foi desenvolvido em **9 dias** com foco na construção de um MVP (
 - [x] **Feedback Visual:** Indicação imediata de acerto (Verde) ou erro (Vermelho).
 - [x] **Sistema de Pontuação:** Score dinâmico baseado no desempenho do usuário.
 - [x] **Design Responsivo:** Layout adaptável para Desktop e Mobile.
-- [x] **Cronômetro/Fluxo:** (Opcional: Se você implementar, mantenha aqui).
+- [x] **Cronômetro/Fluxo:** (Opcional: Talvez implementaremos).
 
 ---
 

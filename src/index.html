@@ -1,18 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../src/css/style.css">
-    <link rel="icon" href="/src/image/dev-icon.png" type="image/png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="icon" href="/src/image/dev-icon.png" type="image/png" />
     <title>Dev Quiz</title>
-</head>
+  </head>
 
-<body>
-    <div class="container">
-            <h1>Dev Quiz</h1>
-            <img src="../src/image/quizlogo.png">
-            <button>Jogar</button>
+  <body>
+    <main>
+      <section class="initial-screen">
+        <header class="main">
+          <h1 class="main-title">Dev Quiz</h1>
+        </header>
+
+        <div class="container-logo">
+          <img src="./image/quizlogo.png" />
         </div>
-</body>
+
+        <div class="btn-container">
+          <button class="btn-begin">Jogar</button>  
+        </div>
+      </section>
+
+      <section class="game-screen" class="hidden">
+        <p>Hello World!</p>
+      </section>
+
+      <section class="result-screen" class="hidden">
+        <p>Hello World!</p>
+      </section>
+    </main>
+  </body>
 </html>

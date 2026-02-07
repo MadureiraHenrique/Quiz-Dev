@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    height: 100%;
+}
+
+.container {
+    background-color: #8a63d2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+h1 {
+    position: absolute;
+    top: 0px;
+    left: 44.5%;
+    font-size: 3rem;
+    text-decoration: underline rgba(89, 21, 199, 0.705);
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #00000086;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 2rem;
+    color: #630fff;
+    padding: 20px 100px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}

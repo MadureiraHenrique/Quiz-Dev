@@ -1,52 +1,93 @@
-@import './base/variables.css';
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
-.initial-screen {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #8a63d2;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+.playScreen {
     background-color: #8a63d2;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    min-width: 100vw;
+    height: 100vh;
     display: flex;
-    gap: 20px;
-}
-
-.main {
-    justify-content: center;
-    text-align: center;
-    display: flex;
-}
-
-.main-title {
-    text-decoration: underline rgba(89, 21, 199, 0.705);
-    font-size: 3rem;
-}
-
-.container-logo {
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     color: white;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.playScreen__tittle {
+    position: absolute;
+    top: 0px;
+    left: 43%;
+    font-size: 3rem;
+    text-decoration: underline rgba(89, 21, 199, 0.705);
     display: flex;
+    justify-content: center;
 }
 
-.btn-container {
-    width: auto;
-}
-
-.btn-begin {
-    font-family: "Archivo Black", sans-serif;
-    text-shadow: 2px 2px 2px black;
+.playScreen__buttonPlay--active {
     background-color: #00000086;
-    transition: transform 0.2s;
-    border-radius: 12px;
-    padding: 20px 100px;
-    color: #630fff;
-    cursor: pointer;
+    font-family: "Archivo Black", sans-serif;
     font-size: 2rem;
+    color: #630fff;
+    padding: 20px 100px;
     border: none;
+    border-radius: 12px;
+    height: 100px;
+    cursor: pointer;
 }
 
-.btn-begin:hover {
-    transform: scale(1.05);
+.winScreen__quizSummery {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200px;
+}
+
+.cardFinal {
+  background: white;
+  width: 350px;
+  border-radius: 40px;
+  padding: 60px 20px 20px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+.cardFinal__trophy {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 80px;
+}
+
+.cardFinal__statsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: 1px solid #eee;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.cardFinal__statsGrid__statItem {
+  border-right: 1px solid #eee;
+}
+
+.cardFinal__statsGrid__statItem:last-child {
+  border-right: none;
 }

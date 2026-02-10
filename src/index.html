@@ -1,36 +1,55 @@
-<!doctype html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../src/css/style.css" />
-    <link rel="icon" href="./image/dev-icon.png" type="image/png" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="icon" href="/src/image/dev-icon.png" type="image/png">
     <title>Dev Quiz</title>
-  </head>
-
-  <body>
-    <main>
-      <section class="initial-screen">
-        <header class="main">
-          <h1 class="main-title">Dev Quiz</h1>
-        </header>
-
-        <div class="container-logo">
-          <img src="./image/quizlogo.png" />
+</head>
+<body>
+    <section class="playScreenSection">
+        <div class="playScreen">
+            <h1 class="playScreen__tittle">Dev Quiz</h1>
+            <img class="playScreen__icon" src="../src/image/quizlogo.png">
+            <button class="playScreen__buttonPlay--active">Jogar</button>
         </div>
+    </section>
 
-        <div class="btn-container">
-          <button class="btn-begin">Jogar</button>  
+    <section class="winScreenSection">
+        <div class="winScreen">
+
+                <header>
+                    <h1 class="winScreen__quizSummery">Quiz Summery</h1>
+                </header>
+
+            <main class="cardFinal">
+                <div class="cardFinal__trophy">🏆</div> <h2>Congratulations!</h2>
+                    <p class="cardFinal__score">You've scored <span>+80</span> points</p>
+
+                    <div class="cardFinal__statsGrid">
+                        <div class="cardFinal__statsGrid__statItem">
+                        <span class="cardFinal__statsGrid__iconPurple">Q</span>
+                        <p>10</p>
+                        <small>Total Que</small>
+                    </div>
+
+                    <!--*-->
+                    <div class="cardFinal__statsGrid__statItem">
+                        <span class="cardFinal__statsGrid__statItem__iconGreen">✔</span>
+                        <p>08</p>
+                        <small>Correct</small>
+                    </div>
+
+                     <!--*-->
+                    <div class="cardFinal__statItem">
+                        <span class="cardFinal__statItem_iconRed">✖</span>
+                        <p>02</p>
+                        <small>Wrong</small>
+                    </div>
+                </div>
+            </main>
         </div>
-      </section>
-
-      <section class="game-screen" class="hidden">
-        <p>Hello World!</p>
-      </section>
-
-      <section class="result-screen" class="hidden">
-        <p>Hello World!</p>
-      </section>
-    </main>
-  </body>
+    </section>
+</body>
 </html>

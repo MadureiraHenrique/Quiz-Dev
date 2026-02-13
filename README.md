@@ -50,8 +50,6 @@ Este projeto foi desenvolvido em **9 dias** com foco na construção de um MVP (
 |:---:|:---:|:---:|
 | <img width="200" src="https://placehold.co/200x400?text=Print+Inicial" alt="Home"> | <img width="200" src="https://placehold.co/200x400?text=Print+Quiz" alt="Quiz"> | <img width="200" src="https://placehold.co/200x400?text=Print+Score" alt="Final"> |
 
-*(Substituir os links acima pelos prints reais do projeto quando estiver pronto)*
-
 ---
 
 ## 🛠 Tecnologias
